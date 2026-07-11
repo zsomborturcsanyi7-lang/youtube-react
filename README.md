@@ -1,7 +1,7 @@
 # YouTube 2.0 — Modern Video Platform
 
 **Verzió:** 1.0  
-**Szerző:** Zsombi (AI asszisztens segítségével)  
+**Szerző:** Zsombi & Hermes Agent (Nous Research)  
 **Státusz:** Működő prototípus
 
 ---
@@ -107,4 +107,4 @@ npm run lint
 
 ## Fejlesztő
 
-Zsombi (AI asszisztens segítségével) (AI asszisztens segítségével)
+Zsombi & Hermes Agent (Nous Research) (AI asszisztens segítségével)
