@@ -1,77 +1,77 @@
 # YouTube 2.0 — Modern Video Platform
 
-**Verzió:** 1.0  
-**Szerző:** Zsombi & Hermes Agent (Nous Research)  
-**Státusz:** Működő prototípus
+**Version:** 1.0  
+**Author:** Zsombi & Hermes Agent (Nous Research)  
+**Status:** Working prototype
 
 ---
 
-## Leírás
+## Description
 
-A **YouTube 2.0** egy modern, reszponzív videóplatform React + TypeScript + Vite stacken. A projekt tartalmaz videólejátszót (react-player), YouTube Shorts-szerű görgethető felületet, oldalsávos navigációt, és mock videó adatokat. A felület a modern YouTube dizájnt követi sötét témával és Lucide ikonokkal.
+**YouTube 2.0** is a modern, responsive video platform built on a React + TypeScript + Vite stack. The project includes a video player (react-player), a YouTube Shorts-style scrollable interface, sidebar navigation, and mock video data. The UI follows modern YouTube design with a dark theme and Lucide icons.
 
 ---
 
-## Fájlszerkezet
+## File Structure
 
 ```
 YouTube 2.0/
 │
-├── package.json                # Projekt függőségek és scriptek
-├── vite.config.ts              # Vite konfiguráció
-├── tsconfig.json               # TypeScript konfiguráció
-├── GEMINI.md                   # Gemini integrációs dokumentáció
-├── index.html                  # Belépési pont
+├── package.json                # Project dependencies and scripts
+├── vite.config.ts              # Vite configuration
+├── tsconfig.json               # TypeScript configuration
+├── GEMINI.md                   # Gemini integration documentation
+├── index.html                  # Entry point
 │
 ├── src/
-│   ├── main.tsx                # React belépési pont
-│   ├── App.tsx                 # Fő alkalmazás komponens
+│   ├── main.tsx                # React entry point
+│   ├── App.tsx                 # Main application component
 │   │
 │   ├── components/
-│   │   ├── VideoOverlay.tsx    # Videó overlay komponens
-│   │   ├── VideoSidebar.tsx    # Oldalsáv navigáció
-│   │   ├── ShortsContainer.tsx # YouTube Shorts-szerű nézet
-│   │   └── ShortVideoItem.tsx  # Short videó elem
+│   │   ├── VideoOverlay.tsx    # Video overlay component
+│   │   ├── VideoSidebar.tsx    # Sidebar navigation
+│   │   ├── ShortsContainer.tsx # YouTube Shorts-style view
+│   │   └── ShortVideoItem.tsx  # Short video item
 │   │
 │   ├── utils/
-│   │   └── youtubeApi.ts       # YouTube API segédfüggvények
+│   │   └── youtubeApi.ts       # YouTube API utilities
 │   │
 │   ├── data/
-│   │   └── mockVideos.ts       # Mock videó adatok
+│   │   └── mockVideos.ts       # Mock video data
 │   │
 │   └── styles/
-│       ├── main.css            # Fő stíluslap
-│       └── shorts.css          # Shorts stílusok
+│       ├── main.css            # Main stylesheet
+│       └── shorts.css          # Shorts styles
 │
-├── dist/                       # Build kimenet
+├── dist/                       # Build output
 │   ├── index.html
 │   └── assets/
 │
-└── node_modules/               # Függőségek
+└── node_modules/               # Dependencies
 ```
 
 ---
 
-## Használat
+## Usage
 
-### Fejlesztői szerver indítása
+### Starting the Development Server
 
 ```bash
 npm install
 npm run dev
 ```
 
-A szerver alapértelmezetten `http://localhost:5173`-on indul.
+The server starts at `http://localhost:5173` by default.
 
-### Production build
+### Production Build
 
 ```bash
 npm run build
 ```
 
-A kimenet a `dist/` mappába kerül.
+Output goes to the `dist/` folder.
 
-### Build előnézet
+### Build Preview
 
 ```bash
 npm run preview
@@ -85,26 +85,26 @@ npm run lint
 
 ---
 
-## Technológiák
+## Technologies
 
-| Technológia | Verzió | Leírás |
+| Technology | Version | Description |
 |------------|--------|--------|
-| **React** | 19.2.6 | UI könyvtár |
-| **TypeScript** | ~6.0 | Típusbiztonság |
-| **Vite** | 8.0.12 | Build eszköz |
-| **react-player** | 3.4.0 | Videólejátszó |
-| **lucide-react** | 1.14.0 | Ikonok |
-| **ESLint** | 10.3.0 | Kódminőség |
+| **React** | 19.2.6 | UI library |
+| **TypeScript** | ~6.0 | Type safety |
+| **Vite** | 8.0.12 | Build tool |
+| **react-player** | 3.4.0 | Video player |
+| **lucide-react** | 1.14.0 | Icons |
+| **ESLint** | 10.3.0 | Code quality |
 
 ---
 
-## Függőségek
+## Dependencies
 
 - **Node.js** 18+
-- **npm** vagy **yarn**
+- **npm** or **yarn**
 
 ---
 
-## Fejlesztő
+## Developer
 
-Zsombi & Hermes Agent (Nous Research) (AI asszisztens segítségével)
+Zsombi & Hermes Agent (Nous Research)
