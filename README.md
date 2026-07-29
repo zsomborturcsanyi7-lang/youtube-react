@@ -1,4 +1,4 @@
-# YouTube 2.0 — React+TypeScript+Vite Video Platform (Mock Data)
+# youtube-react
 
 **Status:** ⚠️ Prototype — React UI complete, mock video data, no backend
 
