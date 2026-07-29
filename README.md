@@ -1,26 +1,33 @@
 # youtube-react
 
-**Status:** ⚠️ Prototype — React UI complete, mock video data, no backend
+React + TypeScript + Vite alapon épült videóplatform prototípus YouTube-stílusú felhasználói felülettel.
 
-React+TypeScript+Vite video platform UI. Includes video player (react-player), YouTube Shorts-style scrollable interface, sidebar navigation, and mock video data. **Frontend prototype only — no backend.**
+## 📌 A projekt célja
+A projekt célja egy modern, válaszképes videólejátszó és böngésző felület létrehozása a React és Vite technológiák segítségével. Kísérleti felületként szolgál webes videó-architektúrák és komponens-alapú UI fejlesztéséhez.
 
-## ⚠️ THIS PROJECT IS UNFINISHED — FEEL FREE TO CONTINUE IT ⚠️
+## ⚙️ Technológiai stakk & Működés
+- **Frontend**: React 18, TypeScript, Vite
+- **Videólejátszás**: `react-player`
+- **Ikonok & Stílus**: Lucide-react / Tailwind CSS / Vanilla CSS
 
-This project was developed by Zsombi & Hermes Agent (Nous Research).
+## 🚀 Telepítés és Használat
 
----
+### Előfeltételek
+- Node.js (v18+)
+- npm / yarn / pnpm
 
-## Tech stack
-- React 19 + TypeScript + Vite
-- react-player, Lucide icons, dark theme
+### Lépések
+```bash
+# Repository klónozása
+git clone https://github.com/zsomborturcsanyi7-lang/youtube-react.git
+cd youtube-react
 
-## Files
-| File | Description |
-|------|-------------|
-| `src/` | React components |
-| `index.html` | Entry point |
-| `vite.config.ts` | Vite config |
-| `package.json` | Dependencies |
+# Függőségek telepítése
+npm install
 
-## Developer
-Zsombi & Hermes Agent (Nous Research)
+# Fejlesztői szerver indítása
+npm run dev
+```
+
+## 📊 Status
+⚠️ **Prototípus** — Működő UI felület és videólejátszási funkciók.
