@@ -1,33 +1,33 @@
 # youtube-react
 
-React + TypeScript + Vite alapon épült videóplatform prototípus YouTube-stílusú felhasználói felülettel.
+React + TypeScript + Vite video platform prototype featuring a YouTube-style interface.
 
-## 📌 A projekt célja
-A projekt célja egy modern, válaszképes videólejátszó és böngésző felület létrehozása a React és Vite technológiák segítségével. Kísérleti felületként szolgál webes videó-architektúrák és komponens-alapú UI fejlesztéséhez.
+## 📌 Overview & Purpose
+This project is a modern, responsive web application prototype built to test video rendering architectures and component-based UI design using React and Vite.
 
-## ⚙️ Technológiai stakk & Működés
+## ⚙️ Tech Stack & Architecture
 - **Frontend**: React 18, TypeScript, Vite
-- **Videólejátszás**: `react-player`
-- **Ikonok & Stílus**: Lucide-react / Tailwind CSS / Vanilla CSS
+- **Video Player**: `react-player`
+- **UI Components**: Lucide-react / Tailwind CSS / Vanilla CSS
 
-## 🚀 Telepítés és Használat
+## 🚀 Installation & Quickstart
 
-### Előfeltételek
+### Prerequisites
 - Node.js (v18+)
-- npm / yarn / pnpm
+- npm, yarn, or pnpm
 
-### Lépések
+### Steps
 ```bash
-# Repository klónozása
+# Clone the repository
 git clone https://github.com/zsomborturcsanyi7-lang/youtube-react.git
 cd youtube-react
 
-# Függőségek telepítése
+# Install dependencies
 npm install
 
-# Fejlesztői szerver indítása
+# Start the development server
 npm run dev
 ```
 
-## 📊 Status
-⚠️ **Prototípus** — Működő UI felület és videólejátszási funkciók.
+## 📊 Project Status
+⚠️ **Prototype** — Functional UI components and video playback integration.
